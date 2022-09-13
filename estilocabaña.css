@@ -31,7 +31,7 @@ url("imagen/fondo.jpg");
     margin-left: 100px;
     padding: 10px 35px;
     font-size: 1.3rem;
-    color: rgb(19, 190, 76);
+    color: rgb(19, 179, 190);
 }
 
 ul {
@@ -47,7 +47,7 @@ ul li a {
     color: rgb(250, 250, 250);
 }
 ul li a:hover {
-    background:rgb(8, 212, 36);
+    background:rgb(197, 0, 92);
 }
 .content-header {
     color: rgb(255, 255, 255);
@@ -73,7 +73,7 @@ ul li a:hover {
     font-size: 1.2rem;
     display: inline-block;
     padding: 15px 30px;
-    background: rgb(166, 255, 0);
+    background: rgb(1, 212, 160);
     color: rgb(0, 0, 0);
 }
 
@@ -91,7 +91,7 @@ ul li a:hover {
     right: 10%;
     top: -50px;
     transform: rotate(15deg);
-    background-image: linear-gradient(to right top, #1a355c, #005d8a, #008696, #00ab77, #5a963b);
+    background-image: linear-gradient(to right top, #1a355c, #005d8a, #008696, #00ab77, #4cdd04);
 } 
 
 .linea2 {
@@ -155,4 +155,19 @@ h2 {
 .telefono {
     text-align: left;
     width: 90px;
+}
+.correo {
+    text-align: left;
+    width: 90px;
+}
+.lugar {
+    text-align: left;
+    width: 90px;
+}
+.a {
+    padding: 30px 40px; 
+    font-size: 2.0rem;
+    color: rgb(12, 182, 102);
+    left: 300px;
+    top: 80%;
 }
