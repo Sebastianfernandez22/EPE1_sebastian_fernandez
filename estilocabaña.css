@@ -126,7 +126,7 @@ h2 {
 	padding: 0;
 	width: 400%;
 	
-	animation: slide 5s infinite alternate ease-in-out;
+	animation: slide 10s infinite alternate ease-in-out;
 }
 
 .slider-frame li {
@@ -170,4 +170,164 @@ h2 {
     color: rgb(12, 182, 102);
     left: 300px;
     top: 80%;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cards*/
+.container-card{
+	width: 90%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 80%;
+	max-width: 1080px;
+	margin: 20px;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: right;
+	color: #7a7a7a;
+}
+.card{
+    display: flex;
+	width: 100%;
+	margin: 10px;
+	border-radius: 10px;
+	
+	background:rgb(147, 164, 187);
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+    display: flex;
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+    display: flex;
+	width: 90%;
+	height: 210px;
+}
+.card .contenido-card{
+    
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+     display: flex;
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+    display: flex;
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.card .contenido-card a{
+    display: flex;                                                      
+    width: 20px;
+	padding: 30px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+.pe {
+    font-size: 1.2rem;
+}
+.ubicacion {
+    position: relative;
+    left: 7%;  
+    background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background: #e39403;
 }
